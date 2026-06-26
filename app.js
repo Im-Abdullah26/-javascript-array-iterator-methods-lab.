@@ -183,7 +183,9 @@ console.log('Exercise 2 correct result: ', [
 // let sortedByBirthYear =
 
 // // Complete the exercise in the space below:
-
+ inventors.sort(function(a, b) {
+  return a.year - b.year
+})
 // // Check your work:
 // console.log('Exercise 3 my result: ', sortedByBirthYear);
 // console.log('Exercise 3 correct result: ', [
